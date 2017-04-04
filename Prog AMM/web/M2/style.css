@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-apr-2017, 11.26.46
+    Author     : studente
+*/
+
+body {
+    background: white;
+    background-color: #AFEEEE;
+    font-family: sans-serif;
+    
+}
+
+header {
+    text-align:  left;
+    font-size: 19px;
+}
+
+nav {
+    position: fixed;  /* posizione fissa */
+    right: 100px; /* da destra */
+    top: 0px;  /* dall'alto */
+   
+}
+
+nav ul, nav li {
+    display: inline-block;
+    list-style-type: none;  
+}
