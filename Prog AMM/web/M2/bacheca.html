@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>NeardBook: Alla ricerca di nuove persone</title>
+        <title>Bacheca</title>
         <meta charset="UTF-8">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,44 +19,73 @@ and open the template in the editor.
     <body>
         
         <header>
-            <div id="titolo">
-                <h1>  NeardBook </h1>
-            </div>
-        </header>
-       
-        <div id="Indice">
+            
             <nav>
-               <ul>
-                <li> <a href="descrizione.html"> Descrizione </a> </li>
-                <li> <a href="login.html"> Login </a> </li>
-              </ul>
-                
+            <ul class="nav_bar"> 
+                <li><h1 id="title">NerdBook </h1></li>
+                <li> <a href="descrizione.html">Descrizione </a> </li>
+                <li> <a href="login.html">Login </a> </li>
+        
+            </ul>
             </nav>
- 
+        </header>
+        
+        <div id="divBody">
+            <div class="barra_laterale">
+            
+            <h2> Utenti </h2>
+            <ul>
+                <li> Mauretto </li>    
+                <li> Roberto Karia Roby K</li>
+                <li> Nicolleddu </li>
+            </ul>
+            <h2> Gruppi </h2>
+            <ul>
+                <li> Agliutissimo </li>
+                <li> CFP </li>
+                <li> ATS </li>
+            </ul>  
         </div>
-        
-        <div id="Post">
-        
-            <div id="Post1">
-                <h2>Mauretto </h2>
-                <img title="fotoprofilo" src="img/MaurettoAtzori.jpg" alt="Agliuto" width="120" height="141">
-                <p id="Contenutopost1">"Marcello, portami un altro Minky Show"</p>
+            
+        <div class="Post">
+            <div class="Post_body">
+                <div class="head_post">
+                  <img title="fotoprofilo" src="img/MaurettoAtzori.jpg" alt="Agliuto" width="40" height="40">
+                </div>
+                <div class="head_post">
+                <h2>Mauretto</h2>
+                </div>
+                <div class="contenuto">
+                  <p>"Marcello, portami un altro Minky Show"</p>
+                </div>
             </div> 
             
-            <div id="Post2">
+            <div class="Post_body">
+                <div class="head_post">
+                <img title="FotoProfilo2" src="img/RobyK.jpg" width="40" alt="Agliuto2" height="40">
+                </div>
+                <div class="head_post">
                 <h2>Roberto Karia Roby K </h2>
-                <img title="FotoProfilo2" src="img/RobyK.jpg" width="120" alt="Agliuto2" height="141"> <br />
-                <img title="Contenutopost2" src="img/Marascia.jpg" alt="Agliuto3" width="120" height="141">
+                </div>
+                <div class="contenuto">
+                <img title="Contenutopost2" src="img/Marascia.jpg" alt="Agliuto3" width="250" height="200">
+                </div>
             </div> 
             
-            <div id="Post3">
-                <h2>Nicolleddu</h2>
-                <img title="FotoProfilo3" src="img/Nico.jpg" alt="Agliuto4" width="120" height="141"> <br />
+            <div class="Post_body">
+                <div class="head_post">
+                <img title="FotoProfilo3" src="img/Nico.jpg" alt="Agliuto4" width="40" height="40"> <br />
+                </div>
+                <div class="head_post">
+                <h2>Nicoleddu</h2>
+                </div>
+                <div class="contenuto">
                 <a id="Contenutopost3" href="https://www.google.it/search?q=cani&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjM176ilN7SAhXJthQKHYFeBM4Q_AUICCgB&biw=1517&bih=708#imgrc=cvH2w9uNu8LlfM:" target="_blank">
                         Le mie foto il sabato notte
                 </a>
+                </div>
             </div>
-         
+        </div>
         </div>
         
     </body>

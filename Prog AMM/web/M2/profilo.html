@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>NeardBook: Alla ricerca di nuove persone</title>
+        <title>Profilo</title>
         <meta charset="UTF-8">
        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,26 +19,35 @@ and open the template in the editor.
     <body>
         
         <header>
-            <div id="titolo">
-                 NeardBook
-            </div>
-        </header>
-
-        <div id="Indice">
-            Indice per muoversi tra le pagine:
+            
             <nav>
-                
-              <ul>
+            <ul class="nav_bar"> 
+                <li><h1 id="title">NerdBook</h1></li>
                 <li> <a href="descrizione.html"> Descrizione </a> </li>
                 <li> <a href="login.html"> Login </a> </li>
-              </ul>
-                
+            </ul>
             </nav>
-            
-        </div>
+
+        </header>
         
-        <div class="input-form">
-            <form method="post" action="LoginUtente.html">
+        <div id="divBody">
+            
+        <div class="barra_laterale">
+                <h2> Utenti </h2>
+            <ul>
+                <li> Mauretto </li>    
+                <li> Roberto Karia Roby K</li>
+                <li> Nicolleddu </li>
+            </ul>
+            <h2> Gruppi </h2>
+            <ul>
+                <li> Agliutissimo </li>
+                <li> CFP </li>
+                <li> ATS </li>
+            </ul>  
+        </div>
+            <div id="form">
+                <form method="post" action="LoginUtente.html">
                 <label for="nome">Nome </label>
                 <input name="nome" id="nome" type="text"/>
                 <br />
@@ -66,7 +75,8 @@ and open the template in the editor.
                 <br />
                 <input type="submit"  value="Filtra" /> 
                 
-            </form>  
+            </form>
+            </div>        
             
         </div>    
         

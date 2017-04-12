@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>NeardBook: Alla ricerca di nuove persone</title>
+        <title>Login</title>
         <meta charset="UTF-8">
      
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,40 +19,36 @@ and open the template in the editor.
     <body>
         
         <header>
-            <div id="titolo">
-                 NeardBook
-            </div>
-        </header>
-        
-        <div id="Indice">
-            Link esterni:
+            
             <nav>
-                
-              <ul>
-                <li> <a href="bacheca.html"> Bacheca </a> </li>
+            <ul class="nav_bar"> 
+                <li><h1 id="title">NerdBook </h1></li>
                 <li> <a href="descrizione.html"> Descrizione </a> </li>
                 <li> <a href="profilo.html"> Profilo </a> </li>
-              </ul>
-                
+                <li> <a href="bacheca.html">Bacheca</a></li>
+            </ul>
             </nav>
-            
-        </div>
-        
-        <div id="Input">
-            Credenziali d'accesso:
-            <form action="username.asp" method="get">
+       
+        </header>
+
+        <div id="divBody">
+            <div id="form">
+               <form action="username.asp" method="get">
+    
                 <label for="corto">Username</label>
                 <input type="text" name="corto" id="corto" value="Username" />
                 <br />
-                
+            
                 <label for="pswd">Password </label>
                 <input type="password" name="pswd" id="pswd" value="oscurato" /> 
                 <br />
-                
+                 
                 <button type="submit"> Invia </button>
-            </form>
+                
+                </form>
             
+            </div>
         </div>
-    
+            
     </body>
 </html>
