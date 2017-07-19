@@ -35,6 +35,51 @@
         
         <jsp:include page="sidebar.jsp"/>
         
+    <div id="bacheca">    
+        <div class="post">
+            <div class="userInfo">
+                <div class="propic">
+                    <img title="profilo" alt="Foto profilo di Mario Maionchi" src="img/fotouno.jpg" width="50" height="60">
+                </div>
+                <div class="IdName">
+                    <p><strong>Mario Maionchi</strong></p>  
+                </div>
+            </div>     
+            <div class="userPost">
+                <p> La vita è come una scatola di cioccolatini, scaduti.</p>
+            </div>    
+        </div>
+         
+        <div class= "post">
+            <div class="userInfo">
         
+                <div class="propic">
+                    <img title="profilo" alt="Foto profilo di Giovanna Bevilacqua" src="img/fototre.jpg" width="50" height="60">
+                </div>
+                 <div class="IdName">
+                     <p><strong>Giovanna Bevilacqua</strong> </p>
+                </div>
+            </div>    
+            <div class="userPost">
+                <p>Oggi in vacanza!</p>
+                <img title="postPic" alt="post di Giovanna Bevilacqua" src="img/fotoquattro.jpg" width="280" height="240">
+            </div>    
+        </div>
+         
+        <div class="post">
+            <div class="userInfo">
+                <div class="propic">
+                    <img title="profilo" alt="Foto profilo di Mario Pascia" src="img/fotodue.jpg" width="50" height="60">
+                </div>
+                <div class="IdName">
+                    <p><strong>Wello Zio </strong></p>"
+                </div>
+            </div>    
+            <div class="userPost">
+                <p>Guardate questo link!</p>
+                <a href="http://www.google.com">DONNA DELLO SPETTACOLO RIVELA CHE...</a>
+            </div>    
+            </div>
+    </div>       
     </body>
 </html>
