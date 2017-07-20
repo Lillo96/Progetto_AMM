@@ -22,20 +22,21 @@
     
     <body>
         
-       <div id="form">
-        <form id="loginForm" action="username.asp" method="get">
-    
-            <label for="corto">Username</label>
-            <input type="text" name="corto" id="corto" value="Username" />
-            <br />
-            
-            <label for="pswd">Password </label>                <input type="password" name="pswd" id="pswd" value="oscurato" /> 
-            <br />
-                 
-            <input type="submit"  value="Filtra" />
-                
+       <form id="form_login" action="demo.asp" method="get" >
+               <div class="Utente_lp">
+                   <label for="username" >Username</label>
+                   <div id="input"><input type="text" name="username" id="username" value="Username"></div>
+               </div>
+               <div class="Utente_lp">
+                   <label for="password" >Password</label>
+                   <div id="input2"><input type="password" name="password" id="password" value="oscurato"></div>
+               </div>
+                <div class="button">
+                <label for="login"></label>
+                <div id="input3"><input type="submit" name="login" id="login" value="Entra" /></div>
+                </div>
+  
         </form>
-       </div>
         
     </body>
 </html>

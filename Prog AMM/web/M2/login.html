@@ -1,52 +1,47 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>Login</title>
-        <meta charset="UTF-8">
-     
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Marco">
-        <meta name="keywords" content="Alla ricerca di nuove relazioni">
+   <head>
         
+       <title>Login</title>
+        <meta charset="UTF-8" >
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Marco Lilliu">
+        <meta name="keywords" content="Alla ricerca di nuove relazioni">
+
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    </head>
+    </head>  
     
     <body>
-        
-        <header>
+         
+        <div id="login_">
             
-            <nav>
-            <ul class="nav_bar"> 
-                <li><h1 id="title">NerdBook </h1></li>
-                <li> <a href="descrizione.html"> Descrizione </a> </li>
-            </ul>
-            </nav>
-       
-        </header>
-
-        <div id="divBody">
-            <div id="form">
-               <form action="username.asp" method="get">
-    
-                <label for="corto">Username</label>
-                <input type="text" name="corto" id="corto" value="Username" />
-                <br />
-            
-                <label for="pswd">Password </label>
-                <input type="password" name="pswd" id="pswd" value="oscurato" /> 
-                <br />
-                 
-                <button type="submit"> Invia </button>
-                
-                </form>
-            
+            <div id="titolo">
+                <p><strong>Nerdbook</strong></p>
             </div>
-        </div>
             
-    </body>
+        </div>  
+
+       <div class="login">  
+           <div id="loginTitle">
+               <p><strong>Login</strong></p>
+           </div>
+           
+        <form id="form_login" action="demo.asp" method="get" >
+               <div class="Utente_lp">
+                   <label for="username" >Username</label>
+                   <div id="input"><input type="text" name="username" id="username" value="Username"></div>
+               </div>
+               <div class="Utente_lp">
+                   <label for="password" >Password</label>
+                   <div id="input2"><input type="password" name="password" id="password" value="oscurato"></div>
+               </div>
+                <div class="button">
+                <label for="login"></label>
+                <div id="input3"><input type="submit" name="login" id="login" value="Entra" /></div>
+                </div>
+  
+        </form>
+       </div>      
+    </body>   
 </html>

@@ -1,203 +1,617 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 4-apr-2017, 11.26.46
-    Author     : studente
-*/
-h1{
-    margin-top: 0px;
-    color:  #111111;
-    font-weight: bold;
-    font-size: 30px;
-    background-color: cornsilk;
+
+body{
+    background-image: url("img/sfondo.jpg");
+     text-align: center;
+    height: auto;
+    width: auto; 
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #121314;
 }
 
-h2{   
+.head{
+    border: solid;
+    margin: auto;
+    margin-top: 0px;
+    border-color:#111111;
+    height: 70px;
+    width:100%;  
+    background-color: beige;
+}
+
+h2{
+    color: #111111;
     font-size: 20px;
 }
 
-h3{
-    font-size: 15px;
-}
-
-body {
+.head #title h1{
     color: #111111;
-    background-color:  moccasin;
-    font-family: "Open Sans", Arial, sans-serif; 
-}
-
-#divBody{
-    margin-top: 20px;
-    padding-top: 30px;
-}
-
-header {
-    position: fixed;
-    text-align: left;
-    width:100%;
-    height:auto;
-    padding-top: 20px;
-}
-
-.nav_bar{
-    float:left;
-    list-style-type: none;
-    margin-top:2px;
-    margin-right: 10px;
-    margin-left: 5px;
-    padding: 0px;
-    /*border:1px solid black;*/
-    
-}
-
-#title{
-    text-align: center;
     font-size: 30px;
-    padding: 20px;
-    float:left;
-    box-shadow: 0 0 10px rgba(0,0,0, .2);
-    background-color: papayawhip;
+}
+
+
+h3{
     color: #111111;
+    font-size: 20px;
 }
 
-.Post{
-    float:left;
-    margin-bottom:10px;
-    margin-top: 3px;
-    margin-left: 200px;
+.head header{
+    float: left;
+    border-bottom: none;
+    margin: auto;
+    height: 70px;
+    width: 20%;
 }
 
-.Post_body{
-    margin-left: 20px;
-    margin-bottom: 15px;
-    border:1px solid black;
-    padding:10px;
-    box-shadow: 0 0 10px rgba(0,0,0, .2);
-    background-color: white;
-    color: #111111;
-}
-
-.head_post{
-    float:left;
-    margin-right: 10px;
-}
-
-.head_post h2{
-   margin-top: 4px;  
-   margin-bottom: 4px;
-}
-
-.contenuto{
-    margin-top: 60px;
-    margin-bottom: 0px;
-}
-
-.barra_laterale{
-    float:left;
-    width:200px;
-    border:1px solid black;
-    margin-top: 3px;
+.head header #simbolo, .head header #title{
+    float: left;
     margin-left: 5px;
-    position: fixed;
-    box-shadow: 0 0 10px rgba(0,0,0, .2);
-    background-color:  papayawhip;
-    color: #111111;
-}
-.barra_laterale ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    width:200px;
-}
-.barra_laterale li{
-    display:block;
-    padding:8px 16px;
-}
-.barra_laterale h2{
-    margin-left: 15px;
+    margin-bottom: 0px;  
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
-.Post Id{
-    position: static;
-    display:  inline-block;
-}
- 
-a:link{
-    text-decoration: none;
-    color: #111111;
-    background-color: cornsilk;
+.head header #title{
+    margin-top: 1px;
 }
 
-a:visited{
-    text-decoration: none;
+.head nav .collegamenti{
+    float: left;
+    height: 70px;
+    border-top: none;
+    border-bottom: none;
+    border-color: #111111;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+nav .collegamenti #Agliuto{
+    margin-top: 300px;
+}
+
+.head nav .collegamenti p{
+    width: 170px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.head #logout{
+    font-size: 15px;
+    margin-right: 5px;
+    float: right;
     color: #111111;
-    background-color: cornsilk;
+}
+
+
+a{
+   color: black;
 }
 
 a:hover{
     font-weight: bold;
 }
-
-.nav_bar ul{
-    list-style-type:none;
-    margin:0;
-    padding: 0;
+    
+#nav_bar{
+    background-color: antiquewhite;
+    color: #111111;
+    border: solid;
+    border-color: #111111;
+    border-top: none;
+    border-top-color: #111111;
+    float: left;
+    text-align: left;
+    line-height: 1.8em;
+    color:#111111;
 }
 
-.nav_bar h1{
-    border:1px solid black;
+#descrizione{
+    width: auto;
+    background-image: url("img/sfondoGiallo.jpg");
+    height: auto;
+    border: solid;
+    border-color: #111111;
 }
 
-.nav_bar li{
-    display:block;
-    float:left;
+#bacheca .post {
+    background-image: url("img/sfondoVerde.jpg"); 
+    box-shadow: 0 0 10px #111111;
+    border: none;
+    margin-left: 15px;
+    border-bottom: 2px;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.nav_bar li a{
-    text-align: center;
-    border:1px solid black;
+#bacheca .post .info{
+    margin-top: 20px;
+    width: auto;
+    height: 80px;
+    margin-left: 30px;
+}
+
+#bacheca .post .nome{
+    margin-top: 18px;
+}
+
+#bacheca .post .Postutente{
+    margin-right: 60px;
+}
+
+#bacheca .post .info .fotoprofilo img{
+    width: 50px;
+    height: 60px;
+    border: solid;
+    border-color:#111111; 
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#bacheca .post .info .nome, .post .info .fotoprofilo {
+    float: left;
+}
+
+#form {
+    border: solid;
+    background-image: url("img/sfondoGiallo.jpg");
+}
+
+label, input, textArea{
+    color: #111111;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+input, textArea{
+    display: block;
+    border: 1px solid;
+    color: black;    
+}
+
+#login_{
+    width: 200px;
+    height: 70px;
+    float: none;
+    margin: auto;
+}
+
+#login_ #titolo{
+    float: left;
+    margin-left: 47px;
+}
+
+#login_ #titolo{
     font-size: 30px;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: papayawhip;
-    color: #111111;
+    color:#111111;
 }
 
-#title{
-    margin-top:-21px;
-    margin-bottom: 0px;
+#login_ #simbolo{
+    margin-left: 25px;
 }
 
-#segnalibri{
+.login #loginTitle{
+    font-size: 30px;
+}
+
+.login #form_login input{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.login{
+    background-image: url("img/sfondoGiallo.jpg");
+}
+
+.scelte{
+    border: solid;
+    border-color:#111111;
+    background-image: url("img/sfondoVerde.jpg");
+    margin: auto;
+    text-align: center;
+    float: none;
+}
+ 
+@media screen and (min-width: 1024px){
+        
+        
+#bacheca{
+    width: 70%;
     height: auto;
-    margin-top: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+    
+#nav_bar {
+    width: 20%;
+    margin-top:5px;
+    height: auto;
+    padding-left: 0px;
+    margin-right: 0px;
     margin-left: 0px;
-    margin-right: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0, .2);
-    width: 350px;
+    float: left;
+    font-size: 20px;
 }
 
-#form{
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
-    width: 350px;
-    margin-top: 60px;
-    margin-bottom: 5px;
-    padding: 10px;
-    height: auto;
-    margin-left: 220px;
-    margin-right: auto;
-    background-color:  blanchedalmond;
-    color: #111111;
+#form {
+    width: 500px;
+    overflow: hidden;
+    padding: 25px;
+    margin: 50px auto;
 }
 
-#form input, textarea {
+label{
+    display: block;
+    line-height: 30px;
+    width: 150px;
+    float: left;
+}
+
+#special{
+    height: 150px;
+    margin-bottom: 56px;
+}
+
+input, textArea{
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+    padding: 0 10px;
+    float: right;
+}
+
+input{
+    padding-left: 30px;
+}
+
+textArea{
+    font-size: 10px;
+    height: 200px;
+    width: 320px;
+    overflow: hidden;
+}
+
+.button #save{
+    margin-top: 40px;
+    width: 150px;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 0 0 0 0;
+}
+
+
+
+a:link{
+    font-size: 20px;
+}
+
+a:visited{
+    font-size: 20px;
+}
+
+.head nav #triplo a{
+    font-size: 15px;
+}
+
+.scelte {
     width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
+    height: auto;
+    }
+    
+.login{
+    width: 400px;
+    height: 300px;
+    color:#111111;
+    margin: auto;
+    border: solid;
+    border-color: #111111;
+    margin-top: 15px;
+} 
+
+.login #form_login .button #login{
+    
+    width: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 0 0 0 0;
+    }
+
 }
 
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+    
+    
+.head header{
+    border: none;
+}
+    
+    
+#simbolo{
+    display: none;
+}
+    
+h1{
+   font-size: 30px;
+}
+    
+#nav_bar{
+    font-size: 15px;
+    width: 25%;
+    float: left;
+}
+    
+a{
+    font-size: 15px;
+}
+    
+#bacheca{
+    width: 70%;
+    float: left;
+}
+    
+    .head #logout{
+        float: right;
+    }
+    .head nav .link{
+        float: right;
+    }    
+    
+    #form {
+
+        width: 290px;
+        padding: 12px;
+        margin: 25px auto;
+        overflow: hidden;
+
+    }    
+
+label{
+        display: block;
+        line-height: 15px;
+        width: 75px;
+        text-align: left;
+        margin-bottom: 2px;
+        margin-top: 2px;
+
+    }
+
+    input, textArea{
+
+        height: 20px;
+        line-height: 15px;
+        width: 150px;
+        padding: 0 10px;
+        float: none;
+
+    }
+
+   
+
+    textArea{
+        font-size: 10px;
+        height: 100px;
+        width: 150px;
+        overflow: hidden;
+    }
+
+    .button #save{
+        margin-top: 20px;
+        width: 75px;
+        margin-left: 107.5px;
+        margin-right: 107.5px;
+        padding: 0 0 0 0;
+    }
+    
+    .scelte{
+         width: 100%;
+         height: 70px;
+    }
+ 
+    .login{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border: solid;
+    border-color: white;
+    margin-top: 15px;
+    color:#111111;
+    
+    
+}   
+
+.login .Utente_lp, .login #loginTitle{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#login_ #titolo{
+    font-size: 40px;
+}
+
+#form_login .button #login{
+    margin-left: 0px;
+    
+}
+
+.login #form_login .button #login{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 0 0 0 0;
+}
+
+}
+
+
+    
+@media screen and (max-width: 480px){
+    
+    #nav_bar{
+        float: none;
+        margin-top: 68px;
+        width: 100%;
+        
+    }
+    
+    .head header{
+        border: none;
+    }
+    
+    
+    #simbolo{
+        display: none;
+    }
+    
+    h1{
+        font-size: 15px;
+    }
+    
+    a{
+        font-size: 12px;
+    }
+    
+    
+    #bacheca{
+        width: auto;
+        float: none;
+        margin-top: -10px;
+        margin-right: 20px;
+        margin-left: -5px;
+    }
+    
+    #bacheca .post{
+        width: 100%;
+    }
+    
+    .head #logout, .scelte div{
+        float: right;
+        position:absolute;
+        border: solid;
+        border-color: white;
+        top: 75px;
+        left: 8px;
+        right: 49%;
+        bottom: 0px;
+        height: 70px;
+        /*background-image:url("img/sfondo2.png");*/
+        border-right: none;
+        
+    }
+    
+    #descrizione{
+        margin-top: 70px;
+    }
+    
+
+    
+    
+    .head nav .collegamenti{
+        float: right;
+        position:absolute;
+        border: solid;
+        border-color: white;
+        top: 75px;
+        right: 2px;
+        left: 49%;
+        bottom: 0px;
+        height: 70px;
+        /*background-image:url("img/sfondo2.png");*/
+        border-left: none;
+    }
+    
+    
+    
+    #scelte{
+        width: 290px;
+        padding: 12px;
+        margin: 25px auto;
+        overflow: hidden;
+        margin-top: 5px;
+    }    
+
+    label{
+        display: block;
+        line-height: 15px;
+        width: 75px;
+        text-align: left;
+        margin-bottom: 2px;
+        margin-top: 2px;
+
+    }
+
+    input, textArea{
+
+        height: 20px;
+        line-height: 15px;
+        width: 150px;
+        padding: 0 10px;
+        float: none;
+
+    }
+
+   
+
+    textArea{
+        font-size: 10px;
+        height: 100px;
+        width: 150px;
+        overflow: hidden;
+    }
+
+    .button #save{
+        margin-top: 20px;
+        width: 75px;
+        margin-left: 107.5px;
+        margin-right: 107.5px;
+        padding: 0 0 0 0;
+    }
+
+ .login{
+ 
+
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border: solid;
+    border-color: white;
+  /*background-image: url("img/sfondo2.png");*/
+    margin-top: 15px;
+    color:#1E4F70;
+    
+    
+}   
+
+.login .Utente_lp, .login #loginTitle{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#login_ #titolo{
+    
+    font-size: 40px;
+    
+}
+
+#form_login .button #login{
+    margin-left: 0px;
+    
+}
+
+.login #form_login .button #login{
+    
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 0 0 0 0;
+    
+    
+}
+
+}

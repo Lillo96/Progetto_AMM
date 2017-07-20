@@ -37,47 +37,46 @@
         
     <div id="bacheca">    
         <div class="post">
-            <div class="userInfo">
-                <div class="propic">
-                    <img title="profilo" alt="Foto profilo di Mario Maionchi" src="img/fotouno.jpg" width="50" height="60">
+            <div class="info">
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto di Mauretto Atzori" src="img/Marascia.jpg" width="50" height="60">
                 </div>
-                <div class="IdName">
-                    <p><strong>Mario Maionchi</strong></p>  
+                <div class="nome">
+                    <p><strong>Mauretto Atzori</strong></p>  
                 </div>
             </div>     
-            <div class="userPost">
-                <p> La vita è come una scatola di cioccolatini, scaduti.</p>
+            <div class="Postutente">
+                <p>"Marcello, portami un altro Minky Show"</p>
             </div>    
         </div>
          
         <div class= "post">
-            <div class="userInfo">
+            <div class="info">
         
-                <div class="propic">
-                    <img title="profilo" alt="Foto profilo di Giovanna Bevilacqua" src="img/fototre.jpg" width="50" height="60">
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto di Roberto Karia Roby K" src="img/RobyK.jpg" width="50" height="60">
                 </div>
-                 <div class="IdName">
-                     <p><strong>Giovanna Bevilacqua</strong> </p>
+                 <div class="nome">
+                     <p><strong>Roberto Karia Roby K</strong> </p>
                 </div>
             </div>    
-            <div class="userPost">
-                <p>Oggi in vacanza!</p>
-                <img title="postPic" alt="post di Giovanna Bevilacqua" src="img/fotoquattro.jpg" width="280" height="240">
+            <div class="Postutente">
+                <p>Io e Mauretto prima di una partita della SAS</p>
+                <img title="postPic" alt="post di Roby K" src="img/MaurettoAtzori.jpg" width="280" height="240">
             </div>    
         </div>
          
         <div class="post">
-            <div class="userInfo">
-                <div class="propic">
-                    <img title="profilo" alt="Foto profilo di Mario Pascia" src="img/fotodue.jpg" width="50" height="60">
+            <div class="info">
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto profilo di Nicolleddu" src="img/Nico.jpg" width="50" height="60">
                 </div>
-                <div class="IdName">
-                    <p><strong>Wello Zio </strong></p>"
+                <div class="nome">
+                    <p><strong>Nicola Carta</strong></p>"
                 </div>
             </div>    
-            <div class="userPost">
-                <p>Guardate questo link!</p>
-                <a href="http://www.google.com">DONNA DELLO SPETTACOLO RIVELA CHE...</a>
+            <div class="Postutente">
+                <a href="https://www.google.it/search?q=immagini&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjO3pOGspfVAhXM7xQKHXxeCrcQ_AUIBigB&biw=1013&bih=686#tbm=isch&q=cani">Le mie foto il sabato notte</a>
             </div>    
             </div>
     </div>       

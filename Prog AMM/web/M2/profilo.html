@@ -1,85 +1,109 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
+    
     <head>
+       
         <title>Profilo</title>
         <meta charset="UTF-8">
-       
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Marco">
+        <meta name="author" content="Marco Lilliu">
         <meta name="keywords" content="Alla ricerca di nuove relazioni">
         
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
-    
-    <body>
-        
-        <header>
-            
-            <nav>
-            <ul class="nav_bar"> 
-                <li><h1 id="title">NerdBook</h1></li>
-                <li> <a href="descrizione.html"> Descrizione </a> </li>
-                <li> <a href="login.html"> Login </a> </li>
-            </ul>
-            </nav>
 
+    <body>
+      <div class="head">   
+        <header>
+            <div id="simbolo">
+                <img title="simbolo" alt="Logo di NerdBook" src="img/logoSAS.jpg" width="50" height="50">
+            </div>            
+            <div id="title">
+                <h1>Nerdbook</h1>
+            </div>    
         </header>
         
-        <div id="divBody">
-            
-        <div class="barra_laterale">
-                <h2> Utenti </h2>
-            <ul>
-                <li> Mauretto </li>    
-                <li> Roberto Karia Roby K</li>
-                <li> Nicolleddu </li>
-            </ul>
-            <h2> Gruppi </h2>
-            <ul>
-                <li> Agliutissimo </li>
-                <li> CFP </li>
-                <li> ATS </li>
-            </ul>  
-        </div>
-            <div id="form">
-                <form method="post" action="LoginUtente.html">
-                <label for="nome">Nome </label>
-                <input name="nome" id="nome" type="text"/>
-                <br />
-                <label for="cognome">Cognome </label>
-                <input name="cognome" id="cognome" type="text"/>
-                <br />
-                <label for="link">Link </label>
-                <textarea rows="2" cols="30" name="link" id="link">
-                    Link immagine per il profilo
-                </textarea>
-                <br />
-                <label for="frasepresentazione">Frase di presentazione </label>
-                <textarea rows="2" cols="30" name="frasepresentazione" id="frasepresentazione">
-                    Frase di presentazione
-                </textarea>
-                <br />
-                <label for="data">Data </label>
-                <input name="data" id="data" type="text" />
-                <br />
-                <label for="pswd">Password </label>
-                <input type="password" name="pswd" id="pswd" value="oscurato" />
-                <br />
-                <label for="pswd2">Conferma Password </label>
-                <input type="password" name="pswd2" id="pswd2" value="oscurato" />
-                <br />
-                <input type="submit"  value="Filtra" /> 
-                
-            </form>
-            </div>        
-            
+        <nav>
+            <div class="collegamenti" id="tmp">
+                <p><a href="descrizione.html">Descrizione</a></p>         
+                <p><a href="login.html">Login</a></p>
+                <p><a href="bacheca.html">Bacheca</a></p>  
+            </div>
+        </nav>
+          
+          <div id="logout">
+               <div><strong><a href="profilo.html">Marco Lilliu</a></strong></div>
+              <div><a href="login.html">Logout</a></div>
+          </div>  
+          
+      </div>    
+        
+        <div id="nav_bar">
+            <div id="utenti">
+                    <p><strong>Utenti</strong></p>
+                    <ul>
+                        <li><a href="bacheca.html">Mauretto Atzori</a> </li>
+                        <li><a href="bacheca.html">Roberto Karia Roby K</a></li>
+                        <li><a href="bacheca.html">Nicola Carta</a></li>
+                    </ul>    
+            </div>
+            <div id="gruppi">
+                    <p><strong>Gruppi</strong></p>
+                    <ul>
+                        <li><a href="bacheca.html">Agliutissimo</a> </li>
+                        <li><a href="bacheca.html">CFP</a></li>
+                        <li><a href="bacheca.html">ATS</a></li>
+                    </ul>    
+            </div>
         </div>    
         
-    </body>
-    
+          
+        <div id="form">
+            <div id="form_titolo">
+                <h2>Credenziali</h2>
+                
+            </div>
+            
+            
+            <form method="post" action="demo.asp">
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" value="Nome">
+                </div>    
+                <div>
+                    <label for="surname">Cognome</label>
+                    <input type="text" name="surname" id="surname" value="Cognome">
+                </div>
+                <div>
+                    <label for="profilePic">Immagine del profilo</label>
+                    <input type="url" name="profilePic" id="profilePic">
+                </div>
+                <div>
+                    <label id="special">Frase di presentazione</label>
+                    <textarea rows="2" cols="30" name="lungo" id="lungo">Frase di presentazione</textarea>
+                </div>
+                <div>
+                    <label for="data" >Data di Nascita</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <div>
+                    <label for="password" >Password</label>
+                    <input type="password" name="password" id="password" value="oscurato">
+                </div>
+                <div>
+                    <label for="password">Conferma password</label>
+                    <input type="password" name="passwordConfirm" value="oscurato">
+                </div>
+                <br>
+            
+                <div class="button">
+                <label for="save"></label>
+                <input type="submit" name="save" id="save" value="Salva"/>
+                </div>
+        
+            </form>
+        </div>        
+        
+    </body>      
 </html>

@@ -1,92 +1,111 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Bacheca</title>
         <meta charset="UTF-8">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Marco">
+        <meta name="author" content="Marco Lilliu">
         <meta name="keywords" content="Alla ricerca di nuove relazioni">
         
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    </head>
+    </head>  
     
     <body>
         
+        <div class="head">    
         <header>
-            
-            <nav>
-            <ul class="nav_bar"> 
-                <li><h1 id="title">NerdBook </h1></li>
-                <li> <a href="descrizione.html">Descrizione </a> </li>
-                <li> <a href="login.html">Login </a> </li>
-        
-            </ul>
-            </nav>
+            <div id="simbolo">
+                <img title="simbolo" alt="Logo di NerdBook" src="img/logoSAS.jpg" width="50" height="50">
+            </div>            
+            <div id="title">
+                <h1>Nerdbook</h1>
+            </div>    
         </header>
-        
-        <div id="divBody">
-            <div class="barra_laterale">
-            
-            <h2> Utenti </h2>
-            <ul>
-                <li> Mauretto </li>    
-                <li> Roberto Karia Roby K</li>
-                <li> Nicolleddu </li>
-            </ul>
-            <h2> Gruppi </h2>
-            <ul>
-                <li> Agliutissimo </li>
-                <li> CFP </li>
-                <li> ATS </li>
-            </ul>  
-        </div>
-            
-        <div class="Post">
-            <div class="Post_body">
-                <div class="head_post">
-                  <img title="fotoprofilo" src="img/MaurettoAtzori.jpg" alt="Agliuto" width="40" height="40">
+        <nav>
+            <div class="collegamenti" id="tmp">
+                <div>
+                <p><a href="descrizione.html">Descrizione</a></p> 
                 </div>
-                <div class="head_post">
-                <h2>Mauretto</h2>
-                </div>
-                <div class="contenuto">
-                  <p>"Marcello, portami un altro Minky Show"</p>
-                </div>
-            </div> 
-            
-            <div class="Post_body">
-                <div class="head_post">
-                <img title="FotoProfilo2" src="img/RobyK.jpg" width="40" alt="Agliuto2" height="40">
-                </div>
-                <div class="head_post">
-                <h2>Roberto Karia Roby K </h2>
-                </div>
-                <div class="contenuto">
-                <img title="Contenutopost2" src="img/Marascia.jpg" alt="Agliuto3" width="250" height="200">
-                </div>
-            </div> 
-            
-            <div class="Post_body">
-                <div class="head_post">
-                <img title="FotoProfilo3" src="img/Nico.jpg" alt="Agliuto4" width="40" height="40"> <br />
-                </div>
-                <div class="head_post">
-                <h2>Nicoleddu</h2>
-                </div>
-                <div class="contenuto">
-                <a id="Contenutopost3" href="https://www.google.it/search?q=cani&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjM176ilN7SAhXJthQKHYFeBM4Q_AUICCgB&biw=1517&bih=708#imgrc=cvH2w9uNu8LlfM:" target="_blank">
-                        Le mie foto il sabato notte
-                </a>
+                <div>
+                <p><a href="login.html">Login</a></p>
                 </div>
             </div>
-        </div>
-        </div>
+        </nav>
+          
+          <div id="logout">
+               <div><strong><a href="profilo.html">Marco Lilliu</a></strong></div>
+              <div><a href="login.html">Logout</a></div>
+          </div>  
+        </div>     
         
-    </body>
+        
+        <div id="nav_bar">
+            <div id="utenti">
+                    <p><strong>Utenti</strong></p>
+                    <ul>
+                        <li><a href="bacheca.html">Mauretto Atzori</a> </li>
+                        <li><a href="bacheca.html">Roberto Karia Roby K</a></li>
+                        <li><a href="bacheca.html">Nicola Carta</a></li>
+                    </ul>    
+            </div>
+            <div id="gruppi">
+                    <p><strong>Gruppi</strong></p>
+                    <ul>
+                        <li><a href="bacheca.html">Agliutissimo</a> </li>
+                        <li><a href="bacheca.html">CFP</a></li>
+                        <li><a href="bacheca.html">ATS</a></li>
+                    </ul>    
+            </div>
+        </div>    
+            
+        
+    <div id="bacheca">    
+        <div class="post">
+            <div class="info">
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto di Mauretto Atzori" src="img/Marascia.jpg" width="50" height="60">
+                </div>
+                <div class="nome">
+                    <p><strong>Mauretto Atzori</strong></p>  
+                </div>
+            </div>     
+            <div class="Postutente">
+                <p>"Marcello, portami un altro Minky Show"</p>
+            </div>    
+        </div>
+         
+        <div class= "post">
+            <div class="info">
+        
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto di Roberto Karia Roby K" src="img/RobyK.jpg" width="50" height="60">
+                </div>
+                 <div class="nome">
+                     <p><strong>Roberto Karia Roby K</strong> </p>
+                </div>
+            </div>    
+            <div class="Postutente">
+                <p>Io e Mauretto prima di una partita della SAS</p>
+                <img title="postPic" alt="post di Roby K" src="img/MaurettoAtzori.jpg" width="280" height="240">
+            </div>    
+        </div>
+         
+        <div class="post">
+            <div class="info">
+                <div class="fotoprofilo">
+                    <img title="profilo" alt="Foto profilo di Nicolleddu" src="img/Nico.jpg" width="50" height="60">
+                </div>
+                <div class="nome">
+                    <p><strong>Nicola Carta</strong></p>"
+                </div>
+            </div>    
+            <div class="Postutente">
+                <a href="https://www.google.it/search?q=immagini&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjO3pOGspfVAhXM7xQKHXxeCrcQ_AUIBigB&biw=1013&bih=686#tbm=isch&q=cani">Le mie foto il sabato notte</a>
+            </div>    
+            </div>
+    </div>    
+
+    </body>  
+    
 </html>

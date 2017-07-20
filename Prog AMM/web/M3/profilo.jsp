@@ -32,35 +32,43 @@
    
         <jsp:include page="sidebar.jsp"/>
         
-        <div id="form">
-                <form method="post" action="LoginUtente.html">
-                <label for="nome">Nome </label>
-                <input name="nome" id="nome" type="text"/>
-                <br />
-                <label for="cognome">Cognome </label>
-                <input name="cognome" id="cognome" type="text"/>
-                <br />
-                <label for="link">Link </label>
-                <textarea rows="2" cols="30" name="link" id="link">Link immagine per il profilo
-                </textarea>
-                <br />
-                <label for="frasepresentazione">Frase di presentazione </label>
-                <textarea rows="2" cols="30" name="frasepresentazione" id="frasepresentazione">
-                    Frase di presentazione
-                </textarea>
-                <br />
-                <label for="data">Data </label>
-                <input name="data" id="data" type="text" />
-                <br />
-                <label for="pswd">Password </label>
-                <input type="password" name="pswd" id="pswd" value="oscurato" />
-                <br />
-                <label for="pswd2">Conferma Password </label>
-                <input type="password" name="pswd2" id="pswd2" value="oscurato" />
-                <br />
-                <input type="submit"  value="Filtra" /> 
-                
+        <form method="post" action="demo.asp">
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" value="Nome">
+                </div>    
+                <div>
+                    <label for="surname">Cognome</label>
+                    <input type="text" name="surname" id="surname" value="Cognome">
+                </div>
+                <div>
+                    <label for="profilePic">Immagine del profilo</label>
+                    <input type="url" name="profilePic" id="profilePic">
+                </div>
+                <div>
+                    <label id="special">Frase di presentazione</label>
+                    <textarea rows="2" cols="30" name="lungo" id="lungo">Frase di presentazione</textarea>
+                </div>
+                <div>
+                    <label for="data" >Data di Nascita</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <div>
+                    <label for="password" >Password</label>
+                    <input type="password" name="password" id="password" value="oscurato">
+                </div>
+                <div>
+                    <label for="password">Conferma password</label>
+                    <input type="password" name="passwordConfirm" value="oscurato">
+                </div>
+                <br>
+            
+                <div class="button">
+                <label for="save"></label>
+                <input type="submit" name="save" id="save" value="Salva"/>
+                </div>
+        
             </form>
-            </div>        
+        </div>           
     </body>
 </html>

@@ -27,46 +27,36 @@
             <jsp:include page="header.jsp"/>
             
             <nav>
-                <div class="nav_bar">
-                    <br><p><a id="EnC" href="login.jsp">Entra</a></p>
-                </div>
+            <div class="collegamenti">
+                <p><a id="Agliuto" href="login.html">Loggati</a></p>
+            </div>
             </nav>
         </div>
             
-      <div id="divBody">        
-            <div id="segnalibri">
-                <ul>
-                    <li> <a href="#Presentazione">Presentazione </a> </li>
-                    <li> <a href="#destinazione">A chi è destinato </a> </li>
-                    <li> <a href="#costi">Costo economico</a> </li>  
-                </ul>
+      <div  class="scelte">
+                    <div>
+                        <p><a href="#Presentazione">Presentazione</a></p>
+                        <p><a href='#costi'>Costo economico</a></p>
+                    </div>            
+            </div>    
+
+            <br>
+            <div id="descrizione">
+                    <div>
+                        <a id='Presentazione'>
+                            <h2>Presentazione</h2>
+                        </a>
+                        <p>NerdBook è il nuovo social in rete, in cui potrai svolgere ciò che vuoi. Per farne parte devi iscriverti, servono semplicemente un email e una password. Non sei curioso di provarlo?</p>
+                    </div>    
+
+                        <div>
+                            <a id='info'>
+                                <h3>Costo economico</h3>
+                            </a>    
+                                <p>L'iscrizione a NerdBook è GRATUITA e senza nessun vincolo!</p><br>
+                                
+                        </div>
             </div>
-            
-            <div id="inf">
-                <a id="segnlibro1">               
-                <h3 id="Presentazione">1) Cosa è NeardBook e come ci si iscrive? </h3>  
-                </a>
-                
-                   <p> NeardBook è il nuovo social in rete, in cui potrai svolgere ciò che vuoi. Per farne parte devi iscriverti, servono semplicemente un email e una password. Non sei curioso di provarlo? </p>
-            
-                <a id="segalibro2">
-                <h3 id="destinazione">2) A chi è destinato? </h3>
-                </a>
-                   
-                    <p> Semplici utenti </p>
-                    <p> Aziende </p>
-                    <p> Organizzatori di eventi </p>
-                    <p> Studenti </p>
-                    <p> Chiunque voglia trascorrere del tempo libero in compagnia </p>
-                    <p> Venditori e aquirenti </p>
-               
-                <a id="segnalibro3">        
-                <h3 id="costi">3) Ecomicamente, conviene? </h3>
-                </a>
-                    <p>L'iscrizione a NeardBook è GRATUITA e senza nessun vincolo!</p> 
-            </div>
-           
-        </div>   
             
     </body>
 </html>
